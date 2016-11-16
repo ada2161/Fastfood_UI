@@ -1,0 +1,151 @@
+*{
+margin:0px;
+padding:0px;
+}
+h1{
+font:bold 40px tahoma;color:blue;
+}
+
+h2{
+font:bold 40px tahoma;color:red;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+display:block;
+}
+.prem_c{
+transition:transform 2s ease;
+
+}
+.prem_c:hover{
+transform:scale(1.1);
+}
+body{
+text-align:center;
+width:100%;
+display:-webkit-box;
+-webkit-box-pack: center;
+/*background-image:url('burger_back.jpg') ;*/
+}
+#new_div{
+background-image:url('og.jpg') ;
+}
+#big_wrapper{
+width:1000px;
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-box-flex:1;
+}
+#top_menu{
+display:-webkit-box;
+/*-webkit-box-orient:horizontal;*/
+
+font:bold 34px Tahoma;
+background:orange;
+color:white;
+-webkit-box-shadow:0px -10px 55px #B26B00 inset;
+
+-webkit-border-radius:5px;
+margin-top:4px;
+}
+#top_img{
+margin-right:50px;
+margin-left:60px;
+-webkit-transition:-webkit-transform 15s;
+}
+#top_img:hover{
+-webkit-transform:rotatey(720deg);
+
+
+}
+#top_menu li{
+display:inline-block;
+padding:20px;
+list-style:none;
+
+}
+figure img{
+transition:transform 2s ease;
+}
+figure img:hover{
+transform:scale(1.07);
+
+}
+
+#top_menu li a{
+text-decoration:none;
+color:white;
+-webkit-transition:-webkit-transform 2s, color 2s;
+}
+#top_menu li a:hover{
+color:#900000;
+-webkit-transform:scale(1.2);		
+
+}
+#l_button{
+background:-webkit-linear-gradient(left,#3498db,#2980b9);
+-webkit-border-radius:35px 20px / 20px 35px;
+width:95px;
+padding:10px;
+margin:10px auto;
+color:white;
+}
+#l_button:hover{
+
+background:-webkit-linear-gradient(left,#3cb0fd,#3498db);
+
+}
+#the_footer{
+color:white;
+text-align:center;
+padding:5px;
+/*background:-webkit-linear-gradient(left,#78786C,#ABAB9B);*/
+background-image:url("foot_back.png");
+position:relative;
+height:140px;
+}
+#foot_text{
+margin-top:15px;
+}
+#the_footer a:visited{
+color:white;
+}
+#new_div{
+display:-webkit-box;
+-webkit-box-orient:horizontal;
+}
+#main_section{
+display:-webkit-box;
+-webkit-box-flex:1;
+width:400px;
+text-align:left;
+margin:100px;
+opacity:0.9;
+}
+#side_news{
+
+display:-webkit-box;
+-webkit-box-flex:1;
+-webkit-box-orient:vertical;
+text-align:right;
+margin:100px;
+}
+@font-face{
+font-family: myFirstFont;
+    src: url(handwriting-markersammyshand-regular_0.ttf);
+
+}
+#cust_font{
+font-family:myFirstFont;
+}
+
+#fin_im{
+color:#900000;
+text-align:center;
+line-height:40px;
+background-image:url("Greencart.jpg") ;
+
+margin-top:50px;
+height:400px;
+font:bold 40px myFirstFont;	  
+}

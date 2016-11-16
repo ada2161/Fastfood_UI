@@ -1,0 +1,246 @@
+*{
+margin:0px;
+padding:0px;
+}
+h1{
+font:bold 20px tahoma;
+}
+
+h2{
+font:bold 14px tahoma;
+}
+
+header,section,footer,aside,nav,article,hgroup{
+display:block;
+}
+body{
+width:100%;
+display:-webkit-box;
+-webkit-box-pack:center;
+}
+#big_wrapper{
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-box-flex:1;
+}
+#top_menu{
+display:-webkit-box;
+-webkit-box-orient:horizontal;
+
+font:bold 34px Tahoma;
+background:orange;
+color:white;
+
+-webkit-border-radius:5px;
+margin-top:4px;
+}
+#top_img{
+margin-right:50px;
+margin-left:60px;
+-webkit-transition:-webkit-transform 15s;
+}
+#top_img:hover{
+-webkit-transform:rotate(720deg);
+
+
+}
+#top_menu li{
+display:inline-block;
+padding:20px;
+list-style:none;
+
+}
+#top_menu li a{
+text-decoration:none;
+color:white;
+-webkit-transition:-webkit-transform 2s, color 2s;
+}
+#top_menu li a:hover{
+color:#900000;
+-webkit-transform:scale(1.2);		
+
+}
+#new_div{display:-webkit-box;}
+#main_section{
+display:-webkit-box;
+-webkit-box-flex:1;
+-webkit-box-orient:vertical;
+}
+
+#cart{
+position:absolute;
+right:20px;
+top:130px;
+}
+.item{
+
+font:bold 20px comic-sans;
+margin-top:100px ;
+margin-bottom:20px;
+}
+.items{margin-left:80px;
+display:inline-block;
+text-align:center;
+}
+
+#flip_images{
+display:-webkit-flex;
+-webkit-box-orient:horizontal;
+}
+.cost{
+
+font:bold 15px sans-serif;
+}
+.cf {
+	
+	
+  
+  height:312px;
+  width:700px;
+  margin-left:80px; 
+}
+.cf2 {
+height:312px;
+width:700px;
+margin-left:80px;
+}
+#big_text{
+line-height:120%;
+font:bold 60px comic-sans;
+color:#900000;
+text-align:center;
+margin-bottom:24px;
+}
+#big_text2{
+line-height:120%;
+font:bold 60px Tahoma;
+color:#6b00b2;
+text-align:center;
+margin-bottom:24px;
+background: -webkit-linear-gradient(#42b247, #c2ffc2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+}
+.cf img {
+  position:absolute;
+ 	margin-left:0px;
+  -webkit-transition: opacity 2s ease-in-out;
+  height:312px;
+  border:3px solid orange;
+	
+  }
+  
+#head{
+text-align:center;
+margin-top:20px;
+color:#800000;
+font:bold 30px myFirstFont;
+}
+.cf img.top:hover {
+  opacity:0;
+}
+@font-face{
+font-family: myFirstFont;
+    src: url(handwriting-markersammyshand-regular_0.ttf);
+
+}
+#cust_font{
+font-family:myFirstFont;
+}
+#the_footer{
+color:white;
+text-align:center;
+padding:5px;
+/*background:-webkit-linear-gradient(left,#78786C,#ABAB9B);*/
+background-image:url("foot_back.png");
+position:relative;
+top:-7px;
+height:140px;
+}
+#foot_text{
+margin-top:15px;
+}
+#fin_im{
+color:white;
+text-align:center;
+line-height:40px;
+background-image:url("fin_im.jpg");
+margin-top:50px;
+height:550px;
+font:bold 40px Arial,Helvetica,sans-serif;	  
+}
+#amo{
+color:#660066;
+font: 20px comic-sans;
+}
+#l_button{
+background:-webkit-linear-gradient(left,#3498db,#2980b9);
+-webkit-border-radius:35px 20px / 20px 35px;
+width:95px;
+padding:10px;
+margin:10px auto;
+color:white;
+}
+
+
+#c_button{
+background:-webkit-linear-gradient(top,#bf4613,#ff7a05);
+-webkit-border-radius:35px 20px / 20px 35px;
+width:140px;
+padding:10px;
+margin:10px auto;
+color:white;
+margin-right:30px;
+}
+#c_button:hover{
+background:-webkit-linear-gradient(top,#ff7a05,#f06c0e);
+}
+#l_button:hover{
+
+background:-webkit-linear-gradient(left,#3cb0fd,#3498db);
+
+}
+#the_footer a:visited{
+color:white;
+}
+#video{
+background-image:url("graffiti.png");
+padding:40px;
+text-align:center;
+background-size:100%;
+}
+
+#fin_im2{
+padding:20px;
+color:black;
+text-align:center;
+line-height:50px;
+
+background-image:url("notepad.jpg");
+height:700px;
+font:bold 40px Arial,Helvetica,sans-serif;	  
+}
+#img2{
+-webkit-transition:-webkit-transform 10s;
+}
+#img2:hover{
+-webkit-transform:rotate(45deg);
+}
+#offers{
+text-align:center; 	
+display:block;
+width:1000px;	
+margin-left:auto;
+padding:50px;
+margin-right:auto;
+margin-bottom:100px;
+border:1px solid black;
+background:-webkit-radial-gradient(center,circle,red 0%,orange 50%);
+-webkit-border-radius:25px;
+-webkit-box-shadow:rgba(110,110,110,1) 0px 0px 25px ;
+}
+
